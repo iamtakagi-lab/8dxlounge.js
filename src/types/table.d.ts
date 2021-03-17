@@ -1,4 +1,4 @@
-import { Format } from "./string-literal"
+import { Format } from "@/string-literal"
 
 export type Table = {
     id: number
