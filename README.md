@@ -8,6 +8,8 @@
 [VikeMK/Lounge-API](https://github.com/VikeMK/Lounge-API) の JavaScript API Clientです。\
 API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md) に記載してあります。
 
+リリースまで数日程度お待ちください。
+
 ## Installation
 ```console
 yarn add 8dxlounge.js
