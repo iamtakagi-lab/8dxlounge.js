@@ -12,7 +12,8 @@
   "scripts": {
     "build": "webpack",
     "typecheck": "tsc --noEmit",
-    "test": "jest --coverage --silent=false --verbose false --watch",
+    "test": "jest",
+    "test:watch": "jest --coverage --silent=false --verbose false --watch",
     "format": "prettier --write ."
   },
   "dependencies": {
