@@ -1,5 +1,5 @@
 import axios from "axios"
-import { Penalty, Player, PlayerDetails, Table } from "../types"
+import { Penalty, Player, PlayerDetails, Table } from "@/types"
 
 export class LoungeApi {
     private baseUrl = "https://www.mk8dx-lounge.com/api/"
