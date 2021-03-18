@@ -43,10 +43,12 @@ jobs:
 
       - name: Prettier
         run: yarn prettier
+
+      - name: Test
+        run: yarn test
+
+      - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
           commit_message: ✨ Format by Prettier
-          
-      - name: Test
-        run: yarn test
       
