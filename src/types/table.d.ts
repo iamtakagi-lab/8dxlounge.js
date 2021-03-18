@@ -10,6 +10,7 @@ export type Table = {
   tier: String // Tierはシーズン毎に変動する可能性があるためリテラル定義しない
   teams: Team[]
   tableMessageId: number
+  updateMessageId: number
 }
 
 export type Team = {
