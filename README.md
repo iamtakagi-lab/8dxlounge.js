@@ -10,14 +10,14 @@ API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/mast
 
 リリースまで数日程度お待ちください。
 
-## Installation
+## Installation / インストール
 ```console
 yarn add 8dxlounge.js
 ```
 ```console
 npm install 8dxlounge.js
 ```
-## Documentation
+## Documentation / ドキュメント
 ```ts
 import { LoungeApi } from '8dxlounge.js';
 
