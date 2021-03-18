@@ -12,7 +12,6 @@ API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/mast
 ```console
 yarn add 8dxlounge.js
 ```
-or
 ```console
 npm install 8dxlounge.js
 ```
