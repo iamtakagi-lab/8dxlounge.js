@@ -10,11 +10,12 @@
     "url": "https://github.com/iamtakagi/8dxlounge.js.git"
   },
   "scripts": {
-    "build": "webpack",
     "typecheck": "tsc --noEmit",
+    "prettier": "prettier --write .",
+    "eslint": "eslint . --format friendly",
     "test": "jest",
     "test:watch": "jest --coverage --silent=false --verbose false --watch",
-    "format": "prettier --write ."
+    "build": "webpack"
   },
   "dependencies": {
     "axios": "^0.21.1"
