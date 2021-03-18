@@ -14,7 +14,8 @@ export type PlayerDetails = {
     averageScore: number
     averageLastTen: number
     partnerAverage: number
-    mmrChanges: MmrChange[]
+    mmrChanges: MmrChange[],
+    forumLink: string
 }
 
 export type MmrChange = {
