@@ -9,8 +9,8 @@ export type Table = {
   url: String // 例:https://www.mk8dx-lounge.com/TableImage/0.png
   tier: String // Tierはシーズン毎に変動する可能性があるためリテラル定義しない
   teams: Team[]
-  tableMessageId: number
-  updateMessageId: number
+  tableMessageId: string
+  updateMessageId: string
 }
 
 export type Team = {
