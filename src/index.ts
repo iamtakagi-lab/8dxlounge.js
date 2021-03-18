@@ -1,2 +1,2 @@
 import api from '@/api'
-export const LoungeApi = api;
+export const LoungeApi = api

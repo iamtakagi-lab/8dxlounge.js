@@ -1,1 +1,1 @@
-export const lateinit = <T>(): T => (undefined as unknown) as T;
+export const lateinit = <T>(): T => (undefined as unknown) as T

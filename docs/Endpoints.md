@@ -1,4 +1,5 @@
 # Endpoints
+
 - https://www.mk8dx-lounge.com/api/player?mkcId=2570
 - https://www.mk8dx-lounge.com/api/player?name=Vike
 - https://www.mk8dx-lounge.com/api/player/details?name=Vike

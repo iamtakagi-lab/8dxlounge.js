@@ -1,2 +1,2 @@
-import { LoungeApi } from "./api";
+import { LoungeApi } from './api'
 export default LoungeApi
