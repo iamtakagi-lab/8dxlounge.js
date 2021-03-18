@@ -32,5 +32,6 @@ jobs:
         if: github.event_name == 'release'
         uses: JS-DevTools/npm-publish@v1
         with:
+          access: public
           token: ${{ secrets.NPM_TOKEN }}
           version: ${{ github.event.release.tag_name }}
