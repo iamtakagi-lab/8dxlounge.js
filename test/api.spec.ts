@@ -27,13 +27,13 @@ describe('API', () => {
   })
 
   it('getPlayerByName', async () => {
-    const player = await api.getPlayerByName("takagi")
+    const player = await api.getPlayerByName('takagi')
     console.log(player)
     expect(player)
   })
 
   it('getPlayerDetailsByName', async () => {
-    const pd = await api.getPlayerDetailsByName("takagi")
+    const pd = await api.getPlayerDetailsByName('takagi')
     console.log(pd)
     expect(pd)
   })
@@ -51,9 +51,8 @@ describe('API', () => {
   })
 
   it('getPenaltiesByName', async () => {
-    const penalties = await api.getPenaltiesByName("kusaan")
+    const penalties = await api.getPenaltiesByName('kusaan')
     console.log(penalties)
     expect(penalties)
   })
-  
 })

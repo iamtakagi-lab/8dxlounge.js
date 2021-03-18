@@ -7,25 +7,25 @@ export class LoungeApi {
   private get client() {
     return axios.create({
       baseURL: this.baseUrl,
-      timeout: 5000      
+      timeout: 5000,
     })
   }
 
   /**
    * Get the Players list
-   * @param minMmr 
-   * @param maxMmr 
+   * @param minMmr
+   * @param maxMmr
    * @returns Players list
    */
-   async getPlayers() {
+  async getPlayers() {
     const { data } = await this.client.get<Player[]>(`player/list`)
     return data
   }
 
   /**
    * Get the Players list by MMR Range
-   * @param minMmr 
-   * @param maxMmr 
+   * @param minMmr
+   * @param maxMmr
    * @returns Players list
    */
   async getPlayersByRange(minMmr: number, maxMmr: number) {
@@ -51,10 +51,10 @@ export class LoungeApi {
     })
     return data
   }
-  
+
   /**
    * Get the Player by PlayerName
-   * @param name 
+   * @param name
    * @returns Player
    */
   async getPlayerByName(name: string) {
@@ -68,7 +68,7 @@ export class LoungeApi {
 
   /**
    * Get the PlayerDetails by PlayerName
-   * @param name 
+   * @param name
    * @returns PlayerDetails
    */
   async getPlayerDetailsByName(name: string) {
@@ -82,7 +82,7 @@ export class LoungeApi {
 
   /**
    * Get the Table by TableID
-   * @param tableId 
+   * @param tableId
    * @returns Table
    */
   async getTableById(tableId: number) {
@@ -105,7 +105,7 @@ export class LoungeApi {
 
   /**
    * Get the Penalties list
-   * @param name 
+   * @param name
    * @returns Penalties list
    */
   async getPenaltiesByName(name: string) {
