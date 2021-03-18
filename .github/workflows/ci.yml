@@ -38,9 +38,6 @@ jobs:
       - name: TypeCheck
         run: yarn typecheck
 
-      - name: ESLint
-        run: yarn eslint
-
       - name: Prettier
         run: yarn prettier
 
