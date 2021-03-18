@@ -39,7 +39,7 @@ jobs:
         run: yarn typecheck
 
       - name: ESLint
-        run: yarn lint
+        run: yarn eslint
 
       - name: Prettier
         run: yarn prettier
