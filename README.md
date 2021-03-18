@@ -1,7 +1,7 @@
 # 8dxlounge.js: 🚙 8DX Lounge API Client for JavaScript.
 
 [![npm version](https://badge.fury.io/js/8dxlounge.js.svg)](https://badge.fury.io/js/8dxlounge.js)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/iamtakagi/animelist-generator)](https://github.com/iamtakagi/8dxlounge.js/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/iamtakagi/8dxlounge.js)](https://github.com/iamtakagi/8dxlounge.js/releases)
 [![CI](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/ci.yml)
 [![Deploy](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml/badge.svg)](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml)
 
