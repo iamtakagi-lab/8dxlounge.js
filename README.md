@@ -9,8 +9,13 @@
 API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md) に記載してあります。
 
 ## Installation
-`yarn add 8dxlounge.js` or `npm install 8dxlounge.js`
-
+```console
+yarn add 8dxlounge.js
+```
+or
+```console
+npm install 8dxlounge.js
+```
 ## Documentation
 ```ts
 import { LoungeApi } from '8dxlounge.js';
