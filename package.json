@@ -13,8 +13,7 @@
     "build": "webpack",
     "typecheck": "tsc --noEmit",
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watch",
-    "test:prod": "yarn run lint && yarn test -- --no-cache"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "axios": "^0.21.1"
