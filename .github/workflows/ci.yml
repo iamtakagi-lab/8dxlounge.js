@@ -17,9 +17,6 @@ on:
      paths-ignore:
       - '*.md'
 
-env:
-  FILE_PATTERN: ".{ts,tsx,js,jsx}"
-
 jobs:
   ci:
     runs-on: ubuntu-latest
