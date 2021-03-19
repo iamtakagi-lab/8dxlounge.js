@@ -5,6 +5,8 @@
 [![CI](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/ci.yml)
 [![Deploy](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml/badge.svg)](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml)
 
+![無題](https://user-images.githubusercontent.com/46530214/111744358-73a89280-88ce-11eb-8290-21465622d8c0.png)
+
 [VikeMK/Lounge-API](https://github.com/VikeMK/Lounge-API) の JavaScript API Clientです。\
 API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md) に記載してあります。
 
