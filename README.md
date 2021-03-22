@@ -8,7 +8,7 @@
 [![Deploy](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml/badge.svg)](https://github.com/iamtakagi/8dxlounge.js/actions/workflows/deploy.yml)
 [![license](https://img.shields.io/github/license/iamtakagi/8dxlounge.js)](https://github.com/iamtakagi/8dxlounge.js/blob/master/LICENSE)
 [![issues](https://img.shields.io/github/issues/iamtakagi/8dxlounge.js)](https://github.com/iamtakagi/8dxlounge.js/issues)
-[![pull requests](https://img.shields.io/github/issues-pr/iamtakagi/8dxlounge.js)](https://github.com/8dxlounge.js/renchon/pulls)
+[![pull requests](https://img.shields.io/github/issues-pr/iamtakagi/8dxlounge.js)](https://github.com/8dxlounge.js/pulls)
 
 [VikeMK/Lounge-API](https://github.com/VikeMK/Lounge-API) の JavaScript API Clientです。\
 API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md) に記載してあります。
