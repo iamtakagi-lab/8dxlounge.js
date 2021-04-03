@@ -10,54 +10,53 @@
 [![issues](https://img.shields.io/github/issues/iamtakagi/8dxlounge.js)](https://github.com/iamtakagi/8dxlounge.js/issues)
 [![pull requests](https://img.shields.io/github/issues-pr/iamtakagi/8dxlounge.js)](https://github.com/8dxlounge.js/pulls)
 
-[VikeMK/Lounge-API](https://github.com/VikeMK/Lounge-API) の JavaScript API Clientです。\
-API Endpointsは [こちら](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md) に記載してあります。
+[VikeMK/Lounge-API](https://github.com/VikeMK/Lounge-API) for JavaScript API Client\
+[API Endpoints](https://github.com/iamtakagi/8dxlounge.js/blob/master/docs/Endpoints.md)
 
-## Installation / インストール
-環境に合わせてインストールしてください
+## Installation
 ```console
 yarn add 8dxlounge.js
 ```
 ```console
 npm install 8dxlounge.js
 ```
-## Documentation / ドキュメント
-詳しくは [src](https://github.com/iamtakagi/8dxlounge.js/tree/master/src) 配下のファイルを参照してください
+## Documentation
+View details under [src](https://github.com/iamtakagi/8dxlounge.js/tree/master/src) directory.
 ```ts
 import { LoungeApi } from '8dxlounge.js';
 
 const api = new LoungeApi();
 
 (async () => {
-  /* プレイヤーリストを取得 */ 
+  /* Get the Players list */ 
   const players = await api.getPlayers()
   console.log(players);
 
-  /* MMR範囲からプレイヤーリストを取得 */ 
+  /* Get the Players list by MMR Range */ 
   const players = await api.getPlayersByRange(1000, 2000)
   console.log(players);
 
-  /* MKCIDからプレイヤーを取得 */ 
+  /* Get the Player by MKCID */ 
   const player = await api.getPlayerById(6167)
   console.log(player);
 
-  /* 名前からプレイヤーを取得 */
+  /* Get the Player by PlayerName */
   const player = await api.getPlayerByName("takagi")
   console.log(player)
 
-  /* 名前からプレイヤー詳細を取得 */
+  /* Get the PlayerDetails by PlayerName */
   const pd = await api.getPlayerDetailsByName("takagi")
   console.log(pd)
 
-  /* TableIDからテーブルを取得 */
+  /* Get the Table by TableID */
   const table = await api.getTableById(100)
   console.log(table)
 
-  /* テーブルリストを取得 */
+  /* Get the Tables list */
   const tables = await api.getTables()
   console.log(tables)
 
-  /* 名前からプレイヤーのペナルティリストを取得 */
+  /* Get the Penalties list */
   const penalties = await api.getPenaltiesByName("kusaan")
   console.log(penalties)
 })();
