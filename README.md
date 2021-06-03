@@ -1,6 +1,7 @@
 ![Logo](https://user-images.githubusercontent.com/46530214/111744358-73a89280-88ce-11eb-8290-21465622d8c0.png)
 
-# 8dxlounge.js: 🚙 8DX Lounge API Client for JavaScript.
+# 8dxlounge.js
+🚙 8DX Lounge API Client for JavaScript.
 
 [![npm version](https://badge.fury.io/js/8dxlounge.js.svg)](https://badge.fury.io/js/8dxlounge.js)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/iamtakagi/8dxlounge.js)](https://github.com/iamtakagi/8dxlounge.js/releases)
